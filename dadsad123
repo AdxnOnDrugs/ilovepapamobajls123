@@ -1,0 +1,68 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("BenWare.cc Rewrite", "GrapeTheme")
+
+local Tab = Window:NewTab("AimLock")
+
+local Section = Tab:NewSection("BenWare.cc Rewrite")
+
+Section:NewButton("SilentAim", "Q to silentaim on someone", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ZRdw3FJL"))()
+    
+    
+    print("SilentAim Is Now Enabled")
+end)
+
+local Tab = Window:NewTab("ESP")
+
+local Section = Tab:NewSection("BenWare.cc Rewrite")
+
+Section:NewButton("ESP", "Just ESP", function()
+    loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
+    
+    
+    print("ESP Is Now Enabled")
+end)
+
+local Tab = Window:NewTab("Player")
+
+local Section = Tab:NewSection("BenWare.cc Rewrite")
+
+Section:NewButton("Real Macro", "Macroing For You", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/EWUi79hU"))
+    
+    
+    print("Real Macro Is Now Enabled")
+end)
+
+local Tab = Window:NewTab("Other")
+
+local Section = Tab:NewSection("BenWare.cc Rewrite")
+
+Section:NewButton("AutoFarm", "Farming Money For You", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/74VJ07iY", true))()
+    
+    
+    print("AutoFarm Is Now Enabled")
+end)
+
+Section:NewButton("AutoLettuce", "Eating Lettuce For You", function()
+    loadstring(game:HttpGet("https://ghostbin.com/lTQMU/raw", true))()
+    
+    
+    print("AutoLettuce Is Now Enabled")
+end)
+
+local Tab = Window:NewTab("Settings")
+
+local Section = Tab:NewSection("Settings")
+
+Section:NewKeybind("Toggle UI", "Hide Ur Gui", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
+local Tab = Window:NewTab("Credits")
+
+local Section = Tab:NewSection("Script Made By $ Adxn#0001")
+
+Section:NewLabel("Zyzia Bff <3")
